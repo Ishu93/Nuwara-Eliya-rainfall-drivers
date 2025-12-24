@@ -1,0 +1,5 @@
+"","Variable","P_Value","Trend"
+"1","rainfall",0.333822586331138,"Non-significant"
+"2","t",0.0217037522925583,"Significant"
+"3","RH",0.000734450252986387,"Significant"
+"4","windspeed",4.78207642136227e-05,"Significant"

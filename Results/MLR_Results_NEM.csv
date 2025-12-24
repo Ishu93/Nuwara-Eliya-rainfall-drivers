@@ -1,0 +1,28 @@
+,Estimate,Std. Error,t value,Pr(>|t|)
+(Intercept),100.0360089,28.51313853,3.508418016,0.000709165
+t_detrended,14.43304927,15.57249102,0.926829834,0.356521468
+RH_detrended,6.904253862,1.164087466,5.931043897,5.64E-08
+windspeed_detrended,92.44871861,24.54633945,3.766293496,0.000297019
+,,,,
+,,,,
+,,,,
+Call:,,,,
+lm(formula = rainfall_detrended ~ t_detrended + RH_detrended + ,,,,
+"    windspeed_detrended, data = season_data_NEM)",,,,
+,,,,
+Residuals:,,,,
+    Min      1Q  Median      3Q     Max ,,,,
+-195.50  -61.47  -11.77   46.41  256.90 ,,,,
+,,,,
+Coefficients:,,,,
+                    Estimate Std. Error t value Pr(>|t|)    ,,,,
+(Intercept)          100.036     28.513   3.508 0.000709 ***,,,,
+t_detrended           14.433     15.572   0.927 0.356521    ,,,,
+RH_detrended           6.904      1.164   5.931 5.64e-08 ***,,,,
+windspeed_detrended   92.449     24.546   3.766 0.000297 ***,,,,
+---,,,,
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1,,,,
+,,,,
+Residual standard error: 87.32 on 89 degrees of freedom,,,,
+"Multiple R-squared:  0.3843,    Adjusted R-squared:  0.3635 ",,,,
+"F-statistic: 18.51 on 3 and 89 DF,  p-value: 2.033e-09",,,,

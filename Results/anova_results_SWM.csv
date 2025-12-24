@@ -1,0 +1,19 @@
+,Df,Sum Sq,Mean Sq,F value,Pr(>F),Eta_Squared
+t_detrended,1,60.63561002,60.63561002,0.009552655,0.922270207,6.05E-05
+RH_detrended,1,24610.91314,24610.91314,3.877252232,0.050774956,0.02456039
+windspeed_detrended,1,18910.92531,18910.92531,2.979264806,0.086383024,0.018872103
+Residuals,151,958474.6262,6347.514081,NA,NA,0.956506995
+,,,,,,
+,,,,,,
+,,,,,,
+Analysis of Variance Table,,,,,,
+,,,,,,
+Response: rainfall_detrended,,,,,,
+                     Df Sum Sq Mean Sq F value  Pr(>F)  ,,,,,,
+t_detrended           1     61    60.6  0.0096 0.92227  ,,,,,,
+RH_detrended          1  24611 24610.9  3.8773 0.05077 .,,,,,,
+windspeed_detrended   1  18911 18910.9  2.9793 0.08638 .,,,,,,
+Residuals           151 958475  6347.5                  ,,,,,,
+---,,,,,,
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1,,,,,,
+,,,,,,
